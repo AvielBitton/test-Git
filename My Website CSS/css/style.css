@@ -1,0 +1,80 @@
+/* Element CSS */
+
+:root {
+  --primary-color: rgb(153, 220, 149);
+  --scondery-color: rgb(49, 151, 49);
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Sacramento", cursive;
+  text-shadow: 2px 2px black;
+  font-size: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+h3 {
+  color: var(--primary-color);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 30px;
+}
+
+/* General Clsses */
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Primay Secondery Section */
+
+.container {
+  padding: 100px 0 0 0;
+}
+
+.primarySection {
+  background-color: var(--primary-color);
+  color: var(--scondery-color);
+  position: relative;
+  border-bottom: 2px solid black;
+}
+
+/* Top Section */
+
+.cloud {
+  position: absolute;
+}
+
+#sunCloud {
+  top: 40px;
+  left: 90px;
+}
+#bottomRightCloud {
+  bottom: 40px;
+  right: 40px;
+}
+#bottomLeftCloud {
+  bottom: 60px;
+  left: 70px;
+}
+#topRightCloud {
+  top: 30px;
+  right: 40px;
+}
+
+/* Middle Section */
+
+#middleSection {
+  width: 70%;
+  margin: auto;
+}
+/* -- Profile Section  */
+
+#profileImg {
+  width: 250px;
+}
